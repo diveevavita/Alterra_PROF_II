@@ -460,6 +460,14 @@ body {
     padding: 0;
 }
 
+.bonus_calculation-item_text:focus {
+    color: #000000;
+}
+
+.bonus_calculation-item_text:active {
+    color: #000000;
+}
+
 .private_club_calculation-item_text-hidden {
 	display: none;
     margin: 0 0 10px;
@@ -471,7 +479,7 @@ body {
 	display: block;
 }
 
-.private_club_calculation-item_text:hover + .private_club_calculation-item_text-hidden {
+.private_club_calculation-item_text:focus + .private_club_calculation-item_text-hidden {
 	display: block;
 }
 
@@ -520,7 +528,7 @@ body {
 .button_hidden_down {
     width: 35px;
     height: 35px;
-    margin: 25px 25px 25px auto;
+    margin: 25px 15px 25px auto;
 }
 
 .hide_but:checked + .button_hidden_down {
@@ -549,6 +557,10 @@ body {
     padding: 20px 10px;
     border-top: 2px solid;
     border-color: #034899;
+}
+
+.bonus_calculation-item_hidden-card:hover {
+	cursor: pointer;
 }
 
 .item_hidden-card_text-name {
@@ -1214,6 +1226,10 @@ body {
 	    background-repeat: no-repeat;
 	    background-size: cover;
 	    background-position: center;
+	}
+
+	#button_calculate {
+		width: 100%;
 	}
 
 	
