@@ -1147,7 +1147,7 @@ body {
 
 	.cooper-section_block-item_card {
 		width: auto;
-	    height: auto;
+	    max-height: 160px;
 	    margin-bottom: 30px;
 	}
 
