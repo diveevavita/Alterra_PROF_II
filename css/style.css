@@ -284,7 +284,7 @@ body {
 }
 
 .cooper-section_block-item_card {
-	width: 350px;
+	width: 300px;
     height: 200px;
 }
 
@@ -586,6 +586,18 @@ body {
     margin: 0 auto;
 }
 
+.hidden_text-mobile {
+    font-family: "Roboto Regular";
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 120%;
+    width: 95%;
+    margin: 0 auto 5px;
+    display: none;
+}
+
 
 
 @media (min-width: 1201px) and (max-width: 1400px) {
@@ -603,7 +615,7 @@ body {
 	}
 
 	.cooper-section_block-item_card {
-		width: 300px;
+		width: 280px;
     	height: 180px;
 	}
 
@@ -769,9 +781,9 @@ body {
 	}
 
 	.cooper-section_block-item_card {
-		width: auto;
-	    height: auto;
-	    margin-bottom: 30px;
+		width: 250px;
+	    max-height: 160px;
+	    margin: 0 auto 30px;
 	}
 
 	.cooper-section_block-item_content {
@@ -948,9 +960,9 @@ body {
 	}
 
 	.cooper-section_block-item_card {
-		width: auto;
-	    height: auto;
-	    margin-bottom: 30px;
+		width: 250px;
+	    max-height: 160px;
+	    margin: 0 auto 30px;
 	}
 
 	.cooper-section_block-item_content {
@@ -1142,9 +1154,9 @@ body {
 	}
 
 	.cooper-section_block-item_card {
-		width: auto;
-	    max-height: 160px;
-	    margin-bottom: 30px;
+		width: 100%;
+	    height: auto;
+	    margin: 0 auto 30px;
 	}
 
 	.cooper-section_block-item_content {
@@ -1231,6 +1243,14 @@ body {
 	
 	.icon-alterra {
 		display: none;
+	}
+
+	.private_club_calculation-item_text {
+		opacity: 0;
+	}
+
+	.hidden_text-mobile {
+	    display: inline-block;
 	}
 }
 
